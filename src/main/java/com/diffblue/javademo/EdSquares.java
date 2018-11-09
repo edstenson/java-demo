@@ -6,8 +6,10 @@ public class EdSquares {
   /**
    * Maths madness.
   */
-  public int doMaths() {
-    int javaMaths = 0;
+  public int doMaths(int javaMaths) {
+    if (javaMaths < 0) {
+      return 1000;
+    }
     for (int i = 0; i < 9; i++) {
       javaMaths = i * i;
     }
