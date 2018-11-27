@@ -7,7 +7,6 @@ public class Count {
     int[] numbers = {75, 10, 4, 3, 7, 1};
     int a, b, c, d, e, f;
 
-/*
     for (int pos1 = 0; pos1 < 6; pos1++) {
       for (int pos2 = 0; pos2 <  6; pos2++) {
         for (int pos3 = 0; pos3 < 6; pos3++) {
@@ -34,19 +33,18 @@ public class Count {
     }
   }
 
-*/
 
-  static void bank001(int aa, int bb, int cc, int dd, int ee, int ff) {
+  static int bank001(int aa, int bb, int cc, int dd, int ee, int ff) {
     return 1;  
 }
 
 
-  static void bank002(int aa, int bb, int cc, int dd, int ee, int ff) {
+  static int bank002(int aa, int bb, int cc, int dd, int ee, int ff) {
     return 2;
   }
 
 
-  static void bank003(int aa, int bb, int cc, int dd, int ee, int ff) {
+  static int bank003(int aa, int bb, int cc, int dd, int ee, int ff) {
     return 3;
   }
 }
